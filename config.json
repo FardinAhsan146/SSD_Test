@@ -1,0 +1,10 @@
+{
+  "mqttServerUrl": "mqtt.eu-latest.cumulocity.com",
+  "clientId": "video_mqqt_test",
+  "device_name": "fardin_demo_test",
+  "tenant": "ritgitex2021",
+  "tenant_url": "",
+  "username": "fxa8225@rit.edu",
+  "password": "Cliff123$",
+  "rest_device_id": null
+}
