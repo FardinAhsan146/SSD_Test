@@ -1,31 +1,8 @@
-# SocialDistanceDetector
 
-Using computer vision we detect if 2 or more people are social distancing or not.
 
-# Note
+1) Download the yolo files from [here](https://drive.google.com/drive/folders/1X0Vd3qBJoh9hxjJOO1CZCQUDRxnVY2bR) and add them to the yolo-colo directory.
 
-Install all the required dependencies from the requirements.txt file
+2) Add in your own ```config.json``` file with your cumulocity details.
 
-```
-pip install -r requirements.txt
-```
-If you are running the client on Windows, comment out the speak function on the client.py file
-```
+3) Run server.py, followed by client{x}.py
 
-def speak():
-  ...
-
-```
-Once done installing dependencies, open the whatsapp.py file.
-
-Here on line 14, change the hostname to yours for instance in my case it is "syedi":
-```
-options.add_argument("--user-data-dir=C:\\Users\\<hostname>\\AppData\\Local\\Google\\Chrome\\User Data") # change the hostname
-
-options.add_argument("--user-data-dir=C:\\Users\\syedi\\AppData\\Local\\Google\\Chrome\\User Data") # 
-
-```
-
-This program downloads only the yolov3 tiny, but you can install yolov3 from their website:
-
-``` https://pjreddie.com/darknet/yolo ```
